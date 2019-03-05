@@ -62,3 +62,19 @@ Ran all test suites.
 ### `npm run build` 或 `yarn build`
 
 此命令用于打包发布生产环境下的代码，执行完成后将会在根目录下新建`build`文件夹，该文件夹下即为打包后的代码。
+
+
+## 支持的语言特性
+
+该项目支持最新 JavaScript 标准的超集。 除了 ES6 语法功能外，它还支持：
+
+- 指数运算符 (ES2016).
+- Async/await (ES2017).
+- Object Rest(剩余)/Spread(展开) 属性 (ES2018).
+- 动态 import() (stage 3 proposal)
+- Class 字段和静态属性 (part of stage 3 proposal).
+- JSX, Flow 和 TypeScript.
+
+注意: **此项目默认不包含 polyfills**。
+
+如果你使用任何其他需要运行时（runtime）支持 的 `ES6+` 特性（例如 `Array.from()` 或 `Symbol` ），请确保 手动包含相应的 `polyfill`，或者你所定位的浏览器已经支持它们。
