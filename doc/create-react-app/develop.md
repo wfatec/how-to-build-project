@@ -84,6 +84,15 @@ npm install --save husky lint-staged prettier
 },
 ```
 
+我们建议关闭`eslint`默认规则，采用`prettier`来格式化代码，因此修改`.eslintrc`:
+
+```
+{
+    "parser": "babel-eslint",
+    "extends": ["prettier"]
+}
+```
+
 好了，现在我们已经能够在`commit`之前实现代码的语法检查以及美化了～
 
 关于如何在`eslint`中集成`prettier`，可以参考[官方文档](https://prettier.io/docs/en/eslint.html)，但是我们这里建议不这么做，还是抱着 Facebook 这课大树，跟着组织走吧:)
@@ -107,4 +116,12 @@ alt + shift + F
 
 ```
 "editor.formatOnSave": true
+```
+
+#### airbnb规范
+
+输入以下命令安装相关依赖：
+
+```
+npx install-peerdeps --dev eslint-config-airbnb
 ```

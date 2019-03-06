@@ -1,7 +1,7 @@
 {
-    "extends": ["react-app"],
-    "plugins": ["prettier"],
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier"],
     "rules": {
-        "prettier/prettier": "error"
+        "valid-jsdoc":"off"
     }
 }
