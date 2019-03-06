@@ -125,3 +125,15 @@ alt + shift + F
 ```
 npx install-peerdeps --dev eslint-config-airbnb
 ```
+
+修改`.eslintrc`:
+
+```
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier"],
+    "rules": {
+        "react/jsx-filename-extension":"off"
+    }
+}
+```
