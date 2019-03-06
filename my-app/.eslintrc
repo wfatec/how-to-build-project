@@ -8,6 +8,7 @@
   },
   "rules": {
     "react/jsx-filename-extension": 0,
-    "no-console": 0
+    "no-plusplus": 0,
+    "no-var": 1
   }
 }
