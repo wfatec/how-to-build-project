@@ -2,6 +2,6 @@
     "parser": "babel-eslint",
     "extends": ["airbnb", "prettier"],
     "rules": {
-        "valid-jsdoc":"off"
+        "react/jsx-filename-extension":"off"
     }
 }
