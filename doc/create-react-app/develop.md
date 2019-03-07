@@ -141,3 +141,7 @@ npx install-peerdeps --dev eslint-config-airbnb
 ### 代码测试
 
 默认安装了`jest`测试环境，但直接执行`npm test`发现出现错误提示，产生原因是此前我们手动安装的`eslint`和`CRA`默认安装的版本产生了冲突，因此需要删除`package.json`下的`eslint`依赖，并重新安装。这时，我们的测试程序就一切正常啦！
+
+### 打包文件分析
+
+参考[官方文档](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
