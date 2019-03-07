@@ -15,3 +15,12 @@ $ yarn add node-sass
 
 将`App.css`修改为`App.scss`后，一切正常，这时我们就能够使用`sass`为我们带来的各种便利了。
 
+## stylelint
+
+> 参考[官方文档](https://stylelint.io/)
+
+安装`stylelint`:
+
+```
+yarn add --dev stylelint
+```

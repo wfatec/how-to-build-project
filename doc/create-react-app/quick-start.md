@@ -46,6 +46,16 @@ my-app
 
 ### `npm test` 或 `yarn test`
 
+Jest 将使用以下任何流行的命名约定来查找测试文件：
+
+- `__tests__ `文件夹中带有 `.js` 后缀的文件。
+- 带有 `.test.js` 后缀的文件。
+- 带有 `.spec.js` 后缀的文件。
+
+`.test.js / .spec.js` 文件（或 `__tests__` 文件夹）可以是位于顶级文件夹 `src` 下任何深度的文件夹中。
+
+执行`npm test`
+
 测试结果如下：
 
 ```
