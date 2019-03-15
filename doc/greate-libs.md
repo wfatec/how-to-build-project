@@ -36,3 +36,17 @@
 - [fetch](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API/Using_Fetch): `Fetch API` 提供了一个 `JavaScript`接口，用于访问和操纵`HTTP`管道的部分，例如请求和响应。它还提供了一个全局 `fetch()`方法，该方法提供了一种简单，合理的方式来跨网络异步获取资源。缺点是兼容性较差，可能需要额外的开发成本。
 
 ## React框架
+
+### 状态管理
+
+- [Redux](https://redux.js.org/): 一款状态管理解决方案，特点是大量运用单向数据流和纯函数实现状态的可维护，并通过强大的中间件机制保证了高度的灵活性，是目前`React`最主流的状态容器管理工具，适用于大型项目的构建。
+
+- [redux-form](https://redux-form.com/7.3.0/): The best way to manage your form state in Redux. 主要用于管理reudx中的form表单数据。可以帮助你轻松的实现表单数据的增删改查，并以优雅的方式实现数据校验，如果项目中表单数据处理的复杂度较高，且项目中使用了`Redux`，那么`redux-form`将是你不二的选择！
+
+### 路由
+
+- [react-router](https://reacttraining.com/react-router/web/guides/quick-start): 以组件化的方式实现了`SPA`项目的路由切换，`react-router4.0`的出现使得路由的生命和使用更加的灵活。
+
+### immutable
+
+- [immer](https://github.com/mweststrate/immer)
