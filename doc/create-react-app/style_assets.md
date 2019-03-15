@@ -19,8 +19,34 @@ $ yarn add node-sass
 
 > 参考[官方文档](https://stylelint.io/)
 
-安装`stylelint`:
+### 安装`stylelint`:
 
 ```
 yarn add --dev stylelint
 ```
+
+### 配置 `Stylelint` 规则
+
+这里我们为 `Stylelint` 选择了官方的代码风格 `stylelint-config-standard`。该风格是 `Stylelint` 的维护者汲取了 `GitHub`、`Google`、`Airbnb` 多家之长生成的。
+
+```
+yarn add --dev stylelint-config-standard
+```
+
+然后编辑配置文件 `.stylelintrc`：
+
+```
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "at-rule-no-unknown": [true, {"ignoreAtRules" :[
+      "mixin", "extend", "content"
+    ]}]
+  }
+}
+```
+配置文件中单独配置 `at-rule-no-unknown` 是为了让 `Stylelint` 支持 `SCSS` 语法中的 `mixin`、`extend`、`content` 语法。
+
+### 安装编辑器插件
+
+以`vscode`为例，安装[vscode-stylelint](https://github.com/shinnn/vscode-stylelint)
