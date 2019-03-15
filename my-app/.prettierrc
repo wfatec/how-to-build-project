@@ -1,6 +1,6 @@
 {
   "eslintIntegration": true,
-  "stylelintIntegration": true,
+  "stylelintIntegration": false,
   "tabWidth": 2,
   "singleQuote": true,
   "semi": false
