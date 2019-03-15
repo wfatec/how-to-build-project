@@ -68,3 +68,5 @@
 - [eslint](https://cn.eslint.org/): 可组装的`JavaScript`和`JSX`检查工具，可以帮助我们事先代码语法检查和规范化。
 
 - [husky](https://github.com/typicode/husky): 可以阻止坏的`git commit`, `git push`，让我们的代码提交更加规范化，减少问题代码的风险。
+
+- [lint-staged](https://github.com/okonet/lint-staged): 把 `Lint` 挪到本地，并且每次提交只检查本次提交所修改的文件
