@@ -27,8 +27,11 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "src/**/*.{js,jsx,ts,tsx,json,md}": [
       "prettier --single-quote --write",
+      "git add"
+    ],
+    "src/**/*.{css,scss}": [
       "stylelint src/**/*.scss src/**/*.css --fix",
       "git add"
     ]
