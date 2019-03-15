@@ -47,6 +47,29 @@ yarn add --dev stylelint-config-standard
 ```
 配置文件中单独配置 `at-rule-no-unknown` 是为了让 `Stylelint` 支持 `SCSS` 语法中的 `mixin`、`extend`、`content` 语法。
 
+修改`lint-staged`配置项：
+
+```
+"lint-staged": {
+  "src/**/*.{js,jsx,ts,tsx,json,md}": [
+    "prettier --single-quote --write",
+    "git add"
+  ],
+  "src/**/*.{css,scss}": [
+    "stylelint src/**/*.scss src/**/*.css --fix",
+    "git add"
+  ]
+},
+```
+
 ### 安装编辑器插件
 
-以`vscode`为例，安装[vscode-stylelint](https://github.com/shinnn/vscode-stylelint)
+以`vscode`为例，安装[vscode-stylelint](https://github.com/shinnn/vscode-stylelint)，重启后即可生效。
+
+为了防止与编辑器自带规则产生冲突，我们还需要修改一下用户配置：
+
+```
+"css.validate": false,
+"less.validate": false,
+"scss.validate": false
+```
