@@ -29,6 +29,10 @@
 
     - [L7](http://antv.alipay.com/zh-cn/l7/1.x/index.html): 提供一套地理空间数据可视化框架，易用易扩展，支持海量数据的高性能和 3D 高质量渲染，安全可靠（无地图法务风险）的地理空间数据可视化解决方案。
 
+## 动画
+
+- [three.js](https://threejs.org/): `ThreeJs`就是对`WebGL`的一个封装。说白了`ThreeJs`就是一个封装了`WebGL`的`js`库，类比`jQuery`封装了`Dom`。
+
 ## 网络请求
 
 - [axios](https://github.com/axios/axios): 一款基于`Promise`的`HTTP` 客户端，功能强大，兼容性好，适用于几乎所有场景。
@@ -52,3 +56,15 @@
 - [immer](https://github.com/mweststrate/immer): 一款轻量级`state`持久化工具，使用较为简洁，建议使用。
 
 - [immutable-js](https://github.com/immutable-js/immutable-js): `facebook`官方出品，较为成熟，缺点是使用较为繁琐。
+
+### 懒加载
+
+- [react-loadable](https://github.com/jamiebuilds/react-loadable): 实现组件的懒加载，在访问时才进行初始化，体现在打包过程中会将懒加载的组件或页面从主文件中分离出来，减小一次性加载文件的大小。
+
+## 项目构建
+
+- [webpack](https://webpack.js.org/): 目前最流行的的前端项目构建工具，无需犹豫，它是你最好的选择！
+
+- [eslint](https://cn.eslint.org/): 可组装的`JavaScript`和`JSX`检查工具，可以帮助我们事先代码语法检查和规范化。
+
+- [husky](https://github.com/typicode/husky): 可以阻止坏的`git commit`, `git push`，让我们的代码提交更加规范化，减少问题代码的风险。
