@@ -49,4 +49,6 @@
 
 ### immutable
 
-- [immer](https://github.com/mweststrate/immer)
+- [immer](https://github.com/mweststrate/immer): 一款轻量级`state`持久化工具，使用较为简洁，建议使用。
+
+- [immutable-js](https://github.com/immutable-js/immutable-js): `facebook`官方出品，较为成熟，缺点是使用较为繁琐。
