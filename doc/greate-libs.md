@@ -70,3 +70,7 @@
 - [husky](https://github.com/typicode/husky): 可以阻止坏的`git commit`, `git push`，让我们的代码提交更加规范化，减少问题代码的风险。
 
 - [lint-staged](https://github.com/okonet/lint-staged): 把 `Lint` 挪到本地，并且每次提交只检查本次提交所修改的文件
+
+## vscode
+
+- [koroFileHeader](https://github.com/OBKoro1/koro1FileHeader/wiki): 在文件中自动生成头部注释
